@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image" href="./images/maverick logo.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Maverick Dresses</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark  bg-#2D4BE navbar-expand-sm bg-dark navbar-dark fixed-top"  id="navbarr">
+
+    <div class="container-fluid">
+      <video src="./videos/MAVERICK (1).mp4" width="60px" height="70px" autoplay autobuffer loop muted></video>      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="true">
+              Collections
+            </a>
+            <button type="button" class="btn btn-primary position-relative" id="cart"
+              style="background-color:white; color: black;">
+              Add to Cart
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                0
+              </span>
+            </button>
+            <i class="fa fa-shopping-cart sizeincrease2" aria-hidden="true"></i>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="categories.html">Boys Uniforms</a></li>
+              <li><a class="dropdown-item" href="categories.html">School Uniforms</a></li>
+              <li><a class="dropdown-item" href="categories.html">Girls Uniforms</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/school pic 1.jpg" class="d-block w-100" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Mavericks Uniform</h5>
+          <div class="line"></div>
+          <p>Services!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/school pic 2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Best in Town</h5>
+          <div class="line"></div>
+          <p>Best uniform store in town </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/school pic 3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>We build Your Trust</h5>
+          <div class="line"></div>
+          <p>Seamless Delivery</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/school pic 4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Delivering Globally</h5>
+          <div class="line"></div>
+          <p>Uniform that are build to last</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/school pic 5.jpg" class="d-block w-100" >
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Building Trust</h5>
+          <div class="line"></div>
+          <p>Unmatched Services</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ 
+
+
+  <!-- service -->
+
+  <div class="container6" style="margin-top:150px;" data-aos="fade-down" data-aos-duration="1300">
+    <div class="main-boxb">
+      <h3 class="head-reason" style="font-family: 'Anton'; color:rgb(44, 44, 78);">3 Reasons to Choose</h3>
+      <h1 class="headd3">The School Uniform Company </h1>
+    </div>
+    <div class="main-boxc">
+      <div class="boxx1">
+        <h1 class="headd4">Seamless delivery</h1>
+        <i class="fa fa-truck truck" aria-hidden="true"></i>
+      </div>
+      <div class="boxx2">
+        <i class="fa fa-child child" aria-hidden="true"></i>
+        <h1 class="headd5">Unifoms That are Built To Last</h1>
+
+      </div>
+      <div class="boxx3">
+        <h1 class="headd6">Unmatched service</h1>
+        <i class="fa fa-th-large truck" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container5" style="margin-bottom: 100px;" data-aos="zoom-in" data-aos-duration="1200">
+    <div class="boxa">
+
+      <h1 class="block-effect" style="--td: 1.2s">
+        <div class="block-reveal" style="--bc: #4040bf; --d: .1s">We</div>
+        <div class="block-reveal" style="--bc: #bf4060; --d: .5s">Have Uniform solution for You</div>
+      </h1>
+
+      <!-- <h1 class="headd">We Have Uniform Solution For You</h1> -->
+      <p class="para1">Nullam eget luctusisus, quis saollicitudau suspendisse biendum congue.</p>
+      <button type="button" class="btn1 btn-secondary">Find your school</button>
+      <button type="button" class="btn2 btn-secondary">Partner with us</button>
+    </div>
+
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/school pic 5.jpg" alt="Avatar" class="imgg" >
+        </div>
+        <div class="flip-card-back">
+          <div class="div1">
+            <h1 class="headd1">Free delivery</h1>
+            <i class="fa fa-truck iconss1" aria-hidden="true"></i>
+          </div>
+          <div class="line"></div>
+
+          <div class="div2">
+            <h1 class="headd1">Secure payment</h1>
+            <i class="fa fa-money iconss2" aria-hidden="true"></i>
+          </div>
+          <div class="line"></div>
+
+          <div class="div3">
+            <h1 class="headd1">Time saving</h1>
+            <i class="fa fa-clock-o iconss3" aria-hidden="true"></i>
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container-services">
+    <div class="main-services1">
+      <div class="main-services">
+        <div class="div-services">
+          <div class="imgservice">
+            <img src="./images/girl pic.jpg" alt="" class="service-size" data-aos="zoom-in-right" data-aos-duration="1300">
+          </div>
+        </div>
+        <!-- heading and paragrph-->
+        <div>
+          <div class="s-h4">
+            <h4 style=" font-family: 'Rubik', sans-serif; font-weight: bold;">Shop By</h4>
+          </div>
+          <div class="s-h1">
+            <h1 class="s-h11">
+              Categories
+            </h1>
+          </div>
+          <div class="s-p">
+            <p class="s-pp" style="font-family: 'Dancing Script', cursive ;" data-aos="zoom-in" data-aos-duration="1300">
+              Posuere tellus imperdiet facilisis. Curabitur viverra
+              faucibusy telluse, eu semper nunc finibus placerat
+              Suspendisse potenti. Praesent vel sem in sem vulputate
+              interdum. Morbi in viverra tellus, eu semperin nunc
+              finibus placerat Suspendisse potenti.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="containerr" data-aos="fade-up"
+      data-aos-duration="3000">
+        <div class="container">
+          <img src="./images/shoes.1" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text"><a href="./categories.html">School Footwear</a> </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./images/sweater" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text"><a href="./categories.html">School Sweater</a> </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./images/PT Tshirt 3.jpg" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text"><a href="./categories.html">School T-shirt</a></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./images/school frock 1.jpg" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text"><a href="./categories.html">School Uniform</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p id="link"><a href="categories.html" class="hyperlink"> View More</a></p>
+
+
+
+
+
+
+
+  <!-- footer -->
+
+  
+<!-- footer -->
+<div class="container-footer">
+  <footer>
+    <div class="row primary">
+      <div class="column about">
+
+        <h3>Mavericks uniform</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+          voluptatem corporis error non,
+        </p>
+
+        <div class="social">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+
+        </div>
+      </div>
+
+      <div class="column links">
+        <h3>Quick Links</h3>
+
+        <ul>
+
+          <li>
+            <a href="#faq">F.A.Q</a>
+          </li>
+          <li>
+            <a href="#cookies-policy">Cookies Policy</a>
+          </li>
+          <li>
+            <a href="#terms-of-services">Terms Of Service</a>
+          </li>
+          <li>
+            <a href="#support">Support</a>
+          </li>
+        </ul>
+
+      </div>
+
+
+      <div class="column links">
+        <h3>Some Links</h3>
+        <ul>
+          <li>
+            <a href="#faq">F.A.Q</a>
+          </li>
+          <li>
+            <a href="#cookies-policy">Cookies Policy</a>
+          </li>
+          <li>
+            <a href="#terms-of-services">Terms Of Service</a>
+          </li>
+          <li>
+            <a href="#support">Support</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="column subscribe">
+        <h3>Newsletter</h3>
+        <div>
+          <input type="email" placeholder="Your email id here" />
+          <button style="margin-top: 10px;">Subscribe</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row copyright">
+      <div class="footer-menu">
+
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About</a>
+        <a href="contactus.html">Contact</a>
+        <a href="categories.html">Collections</a>
+        <a href="services.html">Services</a>
+
+
+  </footer>
+</div>
+
+
+
+
+<script>
+  AOS.init()
+  ;
+</script>
+
+</body>
+
+</html>

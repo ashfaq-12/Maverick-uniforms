@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image" href="./images/maverick logo.jpg">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+<title>Maverick Dresses</title>
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark  bg-#2D4BE navbar-expand-sm bg-dark navbar-dark fixed-top "
+   style="margin-top:50px; border-radius: 10px;" >
+    <div class="container-fluid">
+      <video src="./videos/MAVERICK (1).mp4" width="60px" height="70px" autoplay autobuffer loop muted
+        id="mervick-video"></video>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="true">
+              Collections
+            </a>
+            
+            <button type="button" class="btn btn-primary position-relative" id="cart"
+              style="background-color:white; color: black;">
+              Add to Cart
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                0
+              </span>
+            </button>
+            <i class="fa fa-shopping-cart sizeincrease2" aria-hidden="true" id="shopping"></i>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="categories.html">Boys Uniforms</a></li>
+              <li><a class="dropdown-item" href="categories.html">School Uniforms</a></li>
+              <li><a class="dropdown-item" href="categories.html">Girls Uniforms</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <video autoplay autobuffer loop muted width="1450px" class="video">
+    <source src="./videos/school2.mp4" type="video/mp4">
+    <h2 style="color: white; margin-top:100px;">Maverick Schools Unifoms</h2>
+  </video>
+  
+
+
+  <div class="container6" style="position: absolute;top:700px;" data-aos="flip-left" data-aos-duration="1300"
+    data-aos-easing="ease-in-sine">
+    <div class="main-boxb">
+      <h3 class="head-reason" style="font-family: 'Anton'; color:rgb(44, 44, 78);">3 Reasons to Choose</h3>
+      <h1 class="headd3"> Mavericks Uniform </h1>
+    </div>
+    <div class="main-boxc">
+      <div class="boxx1">
+        <h1 class="headd4">Seamless delivery</h1>
+        <i class="fa fa-truck truck" aria-hidden="true"></i>
+      </div>
+      <div class="boxx2">
+        <i class="fa fa-child child" aria-hidden="true"></i>
+        <h1 class="headd5">Unifoms That are Built To Last</h1>
+
+      </div>
+      <div class="boxx3">
+        <h1 class="headd6">Unmatched service</h1>
+        <i class="fa fa-th-large truck" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- school uniform -->
+
+  <div class="container8">
+    <h3 class="our">Our Products</h3>
+
+    <h1 class="school">Schoolwear</h1>
+  </div>
+  <div class="card-line"></div>
+
+
+  <div class="container9" data-aos="flip-down" data-aos-duration="3000">
+    <div class="card" id="boxuniform">
+      <img src="./images/school frock 1.jpg" alt="Denim Jeans" style="width:100%" id="image" class="schol-shirt">
+      <h3 class="h3-card">Frock Full Sleeve</h3>
+      <p class="price">Pkr-2000</p>
+      <div class="btn-card">
+        <p><button onclick="addtocartbtn()">Add to Cart</button></p>
+      </div>
+    </div>
+
+    <div class="card" id="boxuniform">
+      <img src="./images/school shirt 2.jpg" alt="Denim Jeans" class="schol-shirt" id="image">
+      <h3 class="h3-card">Boys Shirt</h3>
+      <p class="price">Pkr-2000</p>
+      <div class="btn-card">
+        <p><button onclick="addtocartbtn()">Add to Cart</button></p>
+      </div>
+    </div>
+
+    <div class="card" id="boxuniform" id="boxuniform">
+      <img src="./images/school shirt girls 1.jpg" alt="Denim Jeans" style="width:100%" class="schol-shirt" id="image">
+      <h3 class="h3-card">Girls Shirt</h3>
+      <p class="price">Pkr-1500</p>
+      <div class="btn-card">
+        <p><button onclick="addtocartbtn()">Add to Cart</button></p>
+      </div>
+    </div>
+
+    <div class="card" id="boxuniform">
+      <div><img src="./images/school frock 3.jpg" alt="Denim Jeans" style="width:100%" class="schol-shirt" id="image">
+      </div>
+      <h3 class="h3-card">Girls Frock</h3>
+      <p class="price">Pkr-1000</p>
+      <div class="btn-card">
+        <p><button onclick="addtocartbtn()">Add to Cart</button></p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container5"  data-aos="fade-right" data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+    <div class="boxa">
+
+      <h1 class="block-effect" style="--td: 1.2s">
+        <div class="block-reveal" style="--bc: #4040bf; --d: .1s">We</div>
+        <div class="block-reveal" style="--bc: #bf4060; --d: .5s">Have Uniform Solution For You</div>
+      </h1>
+
+      <!-- <h1 class="headd">We Have Uniform Solution For You</h1> -->
+      <p class="para1">Nullam eget luctusisus, quis saollicitudau suspendisse biendum congue.</p>
+      <button type="button" class="btn1 btn-secondary">Find your school</button>
+      <button type="button" class="btn2 btn-secondary">Partner with us</button>
+    </div>
+
+    <div class="flip-card" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/school pic 5.jpg" alt="Avatar" class="imgg">
+        </div>
+        <div class="flip-card-back">
+          <div class="div1">
+            <h1 class="headd1">Free delivery</h1>
+            <i class="fa fa-truck iconss1" aria-hidden="true"></i>
+          </div>
+          <div class="line"></div>
+
+          <div class="div2">
+            <h1 class="headd1">Secure payment</h1>
+            <i class="fa fa-money iconss2" aria-hidden="true"></i>
+          </div>
+          <div class="line"></div>
+
+          <div class="div3">
+            <h1 class="headd1">Time saving</h1>
+            <i class="fa fa-clock-o iconss3" aria-hidden="true"></i>
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="container-services" data-aos="zoom-in-up">
+    <div class="main-services1">
+      <div class="main-services">
+        <div class="div-services">
+          <div class="imgservice">
+            <img src="./images/girl pic.jpg" alt="" class="service-size">
+          </div>
+        </div>
+
+        <div>
+          <div class="s-h4">
+            <h4 style=" font-family: 'Rubik', sans-serif; font-weight: bold;">Shop By</h4>
+          </div>
+          <div class="s-h1">
+            <h1 class="s-h11">
+              Categories
+            </h1>
+          </div>
+          <div class="s-p">
+            <p class="s-pp" style="font-family: 'Dancing Script', cursive ;">
+              Posuere tellus imperdiet facilisis. Curabitur viverra
+              faucibusy telluse, eu semper nunc finibus placerat
+              Suspendisse potenti. Praesent vel sem in sem vulputate
+              interdum. Morbi in viverra tellus, eu semperin nunc
+              finibus placerat Suspendisse potenti.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="containerr">
+        <div class="images">
+          <img src="./images/shoes.1" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text1"><a href="./categories.html"> School Footwear</a></div>
+          </div>
+        </div>
+
+        <div class="images">
+          <img src="./images/sweater" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text1"><a href="./categories.html"> School Sweater</a></div>
+          </div>
+        </div>
+
+        <div class="images">
+          <img src="./images/PT Tshirt 3.jpg" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text1"><a href="./categories.html">School T.Shirt</a></div>
+          </div>
+        </div>
+
+        <div class="images">
+          <img src="./images/school frock 1.jpg" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text1"><a href="./categories.html"> School Uniform</a></div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <h3 class="faq">FAQS</h3> -->
+  <div class="accordian-container"> 
+    <h1 class="qanda">Get Every Answers From Here</h1>
+
+      <div class="accordion" id="accordionExample">
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne" style="width: 50vw;">
+              Why Choose UNIPRO?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body" style="width: 50vw;">
+              Nullam eget luctu, quis sollicitau. Suspendisse biendum congue purust ristique est aicinelitd olo recons
+              equ untur natus auda.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item" id="accordion-itemm">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="width: 50vw;">
+              What fabrics does UNIPRO use to manufacture uniforms?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body" style="width: 50vw;">
+              Nullam eget luctu, quis sollicitau. Suspendisse biendum congue purust ristique est aicinelitd olo recons
+              equ untur natus auda.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" id="accordion-itemm">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="width: 50vw;">
+              Should I get any discount on a bulk order?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body" style="width: 50vw;">
+              Nullam eget luctu, quis sollicitau. Suspendisse biendum congue purust ristique est aicinelitd olo recons
+              equ untur natus auda.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item" id="accordion-itemm">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="width: 50vw;">
+              I need delivery on an timely basis?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body" style="width: 50vw;">
+              Nullam eget luctu, quis sollicitau. Suspendisse biendum congue purust ristique est aicinelitd olo recons
+              equ untur natus auda.
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  
+   </div> 
+
+   
+  <div class="feedback" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="700"
+    data-aos-duration="1300" >
+    <h3>Testimonial</h3 >
+    <h1>Customer Feedback</h1  >
+    <div class="box" style="margin-left: 50px;">
+      <img src="./images/office mens.jpg" alt="">
+      <h3 style="position: absolute; top:120px; right: 120px;">Mike</h3>
+      <p style="position: absolute;top:270px; left: 30px; width: 200px;">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Fuga rerum fugit in, illum debitis dolorum. Inventore repellat voluptates aliquid sit.</p>
+    </div>
+
+    <div class="box" style="position: absolute; bottom:290px; left:300px;">
+      <img src="./images/women office.jpg" alt="" style="position: absolute; left:120px;">
+      <h3 style="position: absolute;bottom: 200px; left:30px;">Tina Cooper</h3>
+      <p style="position: absolute;top:50px; color:white; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Fuga rerum fugit in, illum debitis dolorum. Inventore repellat voluptates aliquid sit.</p>
+    </div>
+
+    <div class="box" style="margin-left: 50px;">
+      <img src="./images/office 2.jpg" alt="" style="position: absolute; top:420px;" >
+      <h3 style="position: absolute; top:380px;right: 110px;">Kristina</h3>
+      <p style="position: absolute;top:530px;left:30px; width:200px; ">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Fuga rerum fugit in, illum debitis dolorum. Inventore repellat voluptates aliquid sit.</p>
+    </div>
+
+    <div class="box" style="position: absolute; bottom:30px; left:300px;" >
+      <img src="./images/office mens.jpg" alt="" style="position: absolute; left:120px;">
+      <h3 style="position: absolute;bottom: 200px; left:30px;">Andrew</h3>
+      <p style="position: absolute;top:50px; color:white; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Fuga rerum fugit in, illum debitis dolorum. Inventore repellat voluptates aliquid sit.</p>
+    </div>
+
+  
+  
+  
+
+
+<!-- find school -->
+    <div class="school-container">
+      <div class="findschool" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1300">
+        <h1>Find Your School</h1>
+      </div>
+      <div class="input">
+        <input type="text" name="" id="searchschool" placeholder="Search School Name">
+        <input type="text" name="" id="searchpass" placeholder="Enter School Passcode">
+        <button class="find" type="button" id="findbtn" onclick="myfun()">Find School</button>
+        <img src="./images/school boy 3 png.png " alt="" id="boy">
+        <img src="./images/school girl png.png" alt="" id="girl">
+      </div>
+    </div>
+
+    <!-- contact us -->
+    <div class="containeremail-main">
+      <h1 class="contact">Contact Us..!</h1>
+      <div class="containeremail" data-aos="zoom-in" data-aos-duration="1300">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fa fa-map-marker sizeincreases" aria-hidden="true"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">North Nazimabad</div>
+              <div class="text-two">Main-Hydri Market</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <i class="fa fa-phone sizeincreases" aria-hidden="true"></i>
+              <div class="text-one">0214 9893 5647</div>
+              <div class="text-two">0254 3434 5678</div>
+            </div>
+            <div class="email details">
+              <i class="fa fa-envelope-open sizeincreases" aria-hidden="true"></i>
+              <div class="topic">Email</div>
+              <div class="text-one" style="margin-left: 65px;">maverickuniform@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a Message</div>
+            <p>If you have any work from me or any types of queries related to my tutorial, you can send me message from
+              here. It's my pleasure to help you.</p>
+            <form action="#">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name">
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Enter your email">
+              </div>
+
+              <div class="button">
+                <a href="https://prislo.com/pk/school-uniform"><input type="button" value="Login"></a>
+              </div>
+
+              <div class="button">
+                <a href="./contactus.html#circle-container"><input type="button" value="Create a new account"></a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <img src="./images/contact vector.jpg" alt="" class="contactpicc" data-aos="fade-down-left"
+        data-aos-duration="1500">
+    </div>
+
+
+
+
+
+    <div class="container2-index" data-aos="fade-down" data-aos-duration="1500">
+      <div class="main-box2">
+
+        <div class="box3">
+          <div class="location2">
+            <i class="fa fa-thumbs-o-up icon1" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="box4">
+          <h5 class="head2">
+            100% SATICFICTION
+          </h5>
+        </div>
+
+        <div class="box5">
+          <div class="location3">
+            <i class="fa fa-money icon1" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="box6">
+          <h5 class="head3">
+            SAVE 20% WHEN YOU
+          </h5>
+
+        </div>
+
+
+        <div class="box7">
+          <div class="location4">
+            <i class="fa fa-credit-card-alt icon1" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="box8">
+          <h5 class="head4">
+            SAVE 20% WHEN YOU
+          </h5>
+
+        </div>
+
+
+        <div class="box9">
+          <div class="location5">
+            <i class="fa fa-truck icon1" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="box10">
+          <h5 class="head5">
+            60-DAY MONEY BACK
+          </h5>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="Discount-containerIndex" data-aos="flip-up" data-aos-duration="1500">
+      <h1 class="d-head" style="font-family: fantasy;">
+        Get Discount 40% off
+      </h1>
+      <form>
+        <div class="row">
+          <div class="col">
+
+            <input type="text" class="form-controll" placeholder="Enter email" name="email"
+              pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+          </div>
+          <div class="col">
+            <input type="password" class="form-controll" placeholder="Enter password" name="pswd">
+          </div>
+        </div>
+      </form>
+      <div class="button-D">
+        <a href="https://www.cookieskids.com/school_uniforms.aspx"><button type="button"
+            class="btndis btn-secondary">Subcribe</button></a>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="map-container">
+      <!-- map -->
+      <div class="main-div3">
+        <div class="mapouter">
+          <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=2880 Broadway, New York&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+              href="https://receivesms.one">receivesms</a></div>
+          <!-- <style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              width: 1400px !important;
+              height: 500px !important;
+            }
+
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              width: 1400px;
+              height: 500px;
+            }
+
+            .gmap_iframe {
+              width: 1400px !important;
+              height: 500px !important;
+            }
+          </style> -->
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="container-footer">
+      <footer class="container-footerr">
+        <div class="row primary">
+          <div class="column about">
+
+            <h3>Mavericks uniform</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              voluptatem corporis error non,
+            </p>
+
+            <div class="social">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              <i class="fa fa-whatsapp" aria-hidden="true"></i>
+
+            </div>
+          </div>
+
+          <div class="column links">
+            <h3>Quick Links</h3>
+
+            <ul>
+
+              <li>
+                <a href="#faq">F.A.Q</a>
+              </li>
+              <li>
+                <a href="#cookies-policy">Cookies Policy</a>
+              </li>
+              <li>
+                <a href="#terms-of-services">Terms Of Service</a>
+              </li>
+              <li>
+                <a href="#support">Support</a>
+              </li>
+            </ul>
+
+          </div>
+
+
+          <div class="column links" id="column-links">
+            <h3>Some Links</h3>
+            <ul>
+              <li>
+                <a href="#faq">F.A.Q</a>
+              </li>
+              <li>
+                <a href="#cookies-policy">Cookies Policy</a>
+              </li>
+              <li>
+                <a href="#terms-of-services">Terms Of Service</a>
+              </li>
+              <li>
+                <a href="#support">Support</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="column subscribe" id="column-subscribe">
+            <h3>Newsletter</h3>
+            <div>
+              <input type="email" placeholder="Your email id here" />
+              <button style="margin-top: 10px;">Subscribe</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row copyright">
+          <div class="footer-menu">
+
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About</a>
+            <a href="contactus.html">Contact</a>
+            <a href="categories.html">Collections</a>
+            <a href="services.html">Services</a>
+          </div>
+          </div>
+      </footer>
+    </div>
+
+    <script> 
+      function myfun() {
+        alert("Your Message has been received. Thankyou for your response!")
+      }
+
+    </script>
+    <script>
+      AOS.init()
+        ;
+    </script>
+
+
+
+
+</body>
+
+</html>

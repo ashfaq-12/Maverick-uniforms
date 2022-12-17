@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image" href="./images/maverick logo.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Maverick Dresses</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark  bg-#2D4BE navbar-expand-sm bg-dark navbar-dark fixed-top"
+    style="margin:50px; border-radius: 10px;">
+
+    <div class="container-fluid">
+        <video src="./videos/MAVERICK (1).mp4" width="60px" height="70px" autoplay autobuffer loop muted></video><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="true">
+              Collections
+            </a>
+            <button type="button" class="btn btn-primary position-relative" id="cart"
+              style="background-color:white; color: black;">
+              Add to Cart
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                0
+              </span>
+            </button>
+            <i class="fa fa-shopping-cart sizeincrease2" aria-hidden="true"></i>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Boys Uniforms</a></li>
+              <li><a class="dropdown-item" href="#">School Uniforms</a></li>
+              <li><a class="dropdown-item" href="#">Girls Uniforms</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <video autoplay autobuffer loop muted width="1350px">
+    <source src="./videos/school-uniform.mp4" type="video/mp4">
+    <h2 style="color: white; margin-top:100px;">Maverick Schools Unifoms</h2>
+  </video>
+
+ 
+   
+   
+
+
+  <!-- uniform category -->
+  <h1 class="cat-head1">Boys-Uniform</h1>
+  <div class="category-line1"></div>
+ <div class="container-video">
+  <div class="containerCategory">
+    <div class="cardA">
+        <div class="face face1">
+            <div class="content" id="item1">
+                <img src="./images/boypic.jpg " class="categorz-imag">
+                
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+              <div class="text">Boy-uniform</div>
+              <div class="brand-price">Price 3000</div>
+                    <a href="#" class="ADDTOCART" onclick="addtocart()">Add to Cart</a>
+                    <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cardA">
+        <div class="face face1">
+            <div class="content">
+                <img src="./images/boy-sweater.jpg"  class="categorz-imag">
+                
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+              <div class="text">Boys-Sweater</div>
+              <div class="brand-price">Price 1000</div>
+                    <a href="#" onclick="addtocart()">Add to Cart</a>
+                    <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cardA">
+        <div class="face face1">
+            <div class="content">
+                <img src="./images/school pic 7.jpg"  class="categorz-imag">
+            
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+              <div class="text">Uniform-court</div>
+              <div class="brand-price">Price 1000</div>
+                    <a href="#" onclick="addtocart()">Add to Cart</a>
+                    <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cardA">
+      <div class="face face1">
+          <div class="content">
+              <img src="./images/school shirt 1.jpg"   class="categorz-imag">
+             
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+            <div class="text">White-Shirt</div>
+            <div class="brand-price">Price 500</div>
+                  <a href="#" onclick="addtocart()">Add to Cart</a>
+                  <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+          </div>
+      </div>
+  </div>
+
+</div>
+
+<!-- 2 container -->
+
+
+<div class="containerCategory">
+  <div class="cardA">
+      <div class="face face1">
+          <div class="content">
+              <img src="./images/PT Tshirt 2.jpg"  class="categorz-imag">
+             
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+            <div class="text"> PT T-shirt</div>
+            <div class="brand-price">Price 500</div>
+                  <a href="#" onclick="addtocart()">Add to Cart</a>
+                  <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="cardA">
+      <div class="face face1">
+          <div class="content">
+              <img src="./images/pt-trackpent.jpg"  class="categorz-imag">
+            
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+            <div class="text">PT-Trackpant</div>
+            <div class="brand-price">Price 500</div>
+                  <a href="#" onclick="addtocart()">Add to Cart</a>
+                  <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="cardA">
+      <div class="face face1">
+          <div class="content">
+              <img src="./images/school belt 2.jpg"  class="categorz-imag">
+              
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+            <div class="text">Mens-Belt</div>
+            <div class="brand-price">Price 500</div>
+                  <a href="#" onclick="addtocart()">Add to Cart</a>
+                  <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="cardA">
+    <div class="face face1">
+        <div class="content">
+            <img src="./images/p.t-shoes.jpg"  class="categorz-imag">
+            
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+          <div class="text">PT-Shoes</div>
+          <div class="brand-price">Price 1000</div>
+                <a href="#" onclick="addtocart()">Add to Cart</a>
+                <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!-- 3 container -->
+
+
+<div class="containerCategory" id="">
+  <div class="cardA">
+      <div class="face face1">
+          <div class="content">
+              <img src="./images/PT shorts 1.jpg"  class="categorz-imag">
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+            <div class="text">Boys-Shorts</div>
+            <div class="brand-price">Price 500</div>
+                  <a href="#" onclick="addtocart()">Add to Cart</a>
+                  <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="cardA">
+      <div class="face face1">
+          <div class="content">
+              <img src="./images/school-shoes.jpg"  class="categorz-imag">
+             
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+            <div class="text">Black School-shoes</div>
+            <div class="brand-price">Price 1000</div>
+                  <a href="#" onclick="addtocart()">Add to Cart</a>
+                  <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="cardA">
+      <div class="face face1">
+          <div class="content">
+              <img src="./images/sockes.jpg"  class="categorz-imag">
+             
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+            <div class="text">Stretchable-Socks</div>
+            <div class="brand-price">Price 300</div>
+                  <a href="#" onclick="addtocart()">Add to Cart</a>
+                  <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="cardA">
+    <div class="face face1">
+        <div class="content">
+            <img src="./images/logos.jpg"  class="categorz-imag">
+           
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+          <div class="text">Uniform-logo</div>
+          <div class="brand-price">Price 500</div>
+                <a href="#" onclick="addtocart()">Add to Cart</a>
+                <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+        </div>
+    </div>
+</div>
+
+</div>
+ 
+<!-- girl-container -->
+
+<h1 class="cat-head">Girls-Uniform</h1>
+<div class="category-line"></div>
+<div class="containerCategory">
+  <div class="cardA">
+      <div class="face face1">
+          <div class="content">
+              <img src="./images/school frock 1.jpg " class="categorz-imag">
+              
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+            <div class="text">Girl-Frock</div>
+            <div class="brand-price">Price 3000</div>
+                  <a href="#" class="ADDTOCART" onclick="addtocart()">Add to Cart</a>
+                  <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="cardA">
+      <div class="face face1">
+          <div class="content">
+              <img src="./images/service-girl.jpg"  class="categorz-imag">
+              
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+            <div class="text">Girl-Sweater</div>
+            <div class="brand-price">Price 100</div>
+                  <a href="#" onclick="addtocart()">Add to Cart</a>
+                  <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="cardA">
+      <div class="face face1">
+          <div class="content">
+              <img src="./images/girl-cout"  class="categorz-imag">
+          
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+            <div class="text">Girl Uniform-Court</div>
+            <div class="brand-price">Price 1000</div>
+                  <a href="#" onclick="addtocart()">Add to Cart</a>
+                  <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="cardA">
+    <div class="face face1">
+        <div class="content">
+            <img src="./images/school shirt girls 1.jpg"   class="categorz-imag">
+           
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+          <div class="text">White-Shirt</div>
+          <div class="brand-price">Price 500</div>
+                <a href="#" onclick="addtocart()">Add to Cart</a>
+                <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!-- 2 container -->
+
+
+<div class="containerCategory">
+<div class="cardA">
+    <div class="face face1">
+        <div class="content">
+            <img src="./images/PT Tshirt 3.jpg "  class="categorz-imag">
+           
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+          <div class="text"> PT T-shirt</div>
+          <div class="brand-price">Price 500</div>
+                <a href="#" onclick="addtocart()">Add to Cart</a>
+                <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+        </div>
+    </div>
+</div>
+
+<div class="cardA">
+    <div class="face face1">
+        <div class="content">
+            <img src="./images/girl-trackpant.jpg"  class="categorz-imag">
+          
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+          <div class="text">PT-Trackpant</div>
+          <div class="brand-price">Price 500</div>
+                <a href="#" onclick="addtocart()">Add to Cart</a>
+                <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+        </div>
+    </div>
+</div>
+
+<div class="cardA">
+    <div class="face face1">
+        <div class="content">
+            <img src="./images/school skirt 3.jpg"  class="categorz-imag">
+            
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+          <div class="text">Short-Skirt</div>
+          <div class="brand-price">Price 500</div>
+                <a href="#" onclick="addtocart()">Add to Cart</a>
+                <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="cardA">
+  <div class="face face1">
+      <div class="content">
+          <img src="./images/p.t-shoes.jpg"  class="categorz-imag">
+          
+      </div>
+  </div>
+  <div class="face face2">
+      <div class="content">
+        <div class="text">White PT-Shoes</div>
+        <div class="brand-price">Price 1000</div>
+              <a href="#" onclick="addtocart()">Add to Cart</a>
+              <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+      </div>
+  </div>
+</div>
+
+</div>
+
+<!-- 3 container -->
+
+
+<div class="containerCategory">
+<div class="cardA">
+    <div class="face face1">
+        <div class="content">
+            <img src="./images/long-skirt.jpg"  class="categorz-imag">
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+          <div class="text">Long-Skirt</div>
+          <div class="brand-price">Price 500</div>
+                <a href="#" onclick="addtocart()">Add to Cart</a>
+                <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+        </div>
+    </div>
+</div>
+
+<div class="cardA">
+    <div class="face face1">
+        <div class="content">
+            <img src="./images/school-shoes.jpg"  class="categorz-imag">
+           
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+          <div class="text">Girls School-Shoes</div>
+          <div class="brand-price">Price 1000</div>
+                <a href="#" onclick="addtocart()">Add to Cart</a>
+                <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+        </div>
+    </div>
+</div>
+
+<div class="cardA">
+    <div class="face face1">
+        <div class="content">
+            <img src="./images/girls-sockes.jpg"  class="categorz-imag">
+           
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+          <div class="text">White-Socks</div>
+          <div class="brand-price">Price 300</div>
+                <a href="#" onclick="addtocart()">Add to Cart</a>
+                <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="cardA">
+  <div class="face face1">
+      <div class="content">
+          <img src="./images/logos.jpg"  class="categorz-imag">
+         
+      </div>
+  </div>
+  <div class="face face2">
+      <div class="content">
+        <div class="text">Uniform-logo</div>
+        <div class="brand-price">Price 500</div>
+              <a href="#" onclick="addtocart()">Add to Cart</a>
+              <a href="#" class="ADDTOCART" id="dis" onclick="removetocart()">Remove</a>
+      </div>
+  </div>
+</div>
+
+</div>
+ </div>
+
+ 
+<!-- footer -->
+<div class="container-footer">
+  <footer>
+    <div class="row primary">
+      <div class="column about">
+
+        <h3>Mavericks uniform</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+          voluptatem corporis error non,
+        </p>
+
+        <div class="social">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+
+        </div>
+      </div>
+
+      <div class="column links">
+        <h3>Quick Links</h3>
+
+        <ul>
+
+          <li>
+            <a href="#faq">F.A.Q</a>
+          </li>
+          <li>
+            <a href="#cookies-policy">Cookies Policy</a>
+          </li>
+          <li>
+            <a href="#terms-of-services">Terms Of Service</a>
+          </li>
+          <li>
+            <a href="#support">Support</a>
+          </li>
+        </ul>
+
+      </div>
+
+
+      <div class="column links">
+        <h3>Some Links</h3>
+        <ul>
+          <li>
+            <a href="#faq">F.A.Q</a>
+          </li>
+          <li>
+            <a href="#cookies-policy">Cookies Policy</a>
+          </li>
+          <li>
+            <a href="#terms-of-services">Terms Of Service</a>
+          </li>
+          <li>
+            <a href="#support">Support</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="column subscribe">
+        <h3>Newsletter</h3>
+        <div>
+          <input type="email" placeholder="Your email id here" />
+          <button style="margin-top: 10px;">Subscribe</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row copyright">
+      <div class="footer-menu">
+
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About</a>
+        <a href="contactus.html">Contact</a>
+        <a href="categories.html">Collections</a>
+        <a href="services.html">Services</a>
+
+
+  </footer>
+</div>
+
+
+
+
+<script src="./index.js">
+
+</script>
+
+</body>
+
+</html>
